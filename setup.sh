@@ -16,7 +16,7 @@ echo "* Installing PHP 5.6..."
 sudo apt-get install -y php5.6 php5.6-common php5.6-cli > /dev/null
 
 echo "* Installing PHP 5.6 extensions..."
-sudo apt-get install -y php5.6-curl php5.6-mcrypt php5.6-soap php5.6-bz2 php5.6-gd php5.6-mysql php5.6-sqlite3 php5.6-json php5.6-opcache php5.6-xml php5.6-mbstring php5.6-readline php5.6-xmlrpc php5.6-zip php-redis > /dev/null
+sudo apt-get install -y php5.6-curl php5.6-mcrypt php5.6-soap php5.6-bz2 php5.6-gd php5.6-mysql php5.6-sqlite3 php5.6-json php5.6-opcache php5.6-xml php5.6-mbstring php5.6-readline php5.6-xmlrpc php5.6-zip libapache2-mod-php5.6 php-redis > /dev/null
 
 echo "* Installing PHP 7.0..."
 sudo apt-get install -y php7.0 php7.0-common php7.0-cli > /dev/null
